@@ -2330,9 +2330,10 @@ times, say 100.</p>
 <div id="simulation-approach" class="section level2 tabset" number="2.3">
 <h2 class="tabset"><span class="header-section-number">2.3</span>
 Simulation Approach</h2>
-<p>Now we turn to the simulation approach. Here we simulate the sampling
-distribution of the statistic we are interested in and take the
-empirical quantiles from this simulated distribution.</p>
+<p>Now we turn to the simulation approach. Here we simulate the
+(approximated) sampling distribution of the statistic we are interested
+in and take the empirical quantiles from this simulated
+distribution.</p>
 <p>The central limit theorem tells us that the <em>sampling distribution
 is normally distributed</em>. We assume that the sample mean is the
 population mean. The standard error is the standard deviation of this
@@ -2761,12 +2762,12 @@ Standard Errors</h4>
 <p>To start, calculate the standard errors of the mean estimates of
 polity scores for <em>Eastern Europe</em> and <em>Western Europe and
 North America</em>.</p>
-<p>Formula for standard errors: <span class="math inline">\(SE(\hat\theta) = \dfrac{\hat\sigma}{\sqrt
+<p>Formula for standard errors: <span class="math inline">\(SE(\hat{\theta}) = \dfrac{\hat{\sigma}}{\sqrt
 N}\)</span></p>
-<p><span class="math inline">\(\hat\theta\)</span> = Estimate of
+<p><span class="math inline">\(\hat{\theta}\)</span> = Estimate of
 population mean</p>
-<p><span class="math inline">\(\hat\sigma\)</span> = Standard deviation
-of a sample</p>
+<p><span class="math inline">\(\hat{\sigma}\)</span> = Standard
+deviation of a sample</p>
 <p><span class="math inline">\(N\)</span> = Number of observations</p>
 <div class="sourceCode" id="cb48"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb48-1"><a href="#cb48-1" tabindex="-1"></a><span class="co"># se_east &lt;- </span></span>
 <span id="cb48-2"><a href="#cb48-2" tabindex="-1"></a><span class="co"># se_west &lt;- </span></span></code></pre></div>

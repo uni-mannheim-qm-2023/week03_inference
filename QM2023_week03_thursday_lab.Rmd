@@ -537,7 +537,7 @@ ggplot(data = CIs_data) +
 
 ## Simulation Approach {.tabset}
 
-Now we turn to the simulation approach. Here we simulate the sampling distribution of the statistic we are interested in and take the empirical quantiles from this simulated distribution.
+Now we turn to the simulation approach. Here we simulate the (approximated) sampling distribution of the statistic we are interested in and take the empirical quantiles from this simulated distribution.
 
 The central limit theorem tells us that the *sampling distribution is normally distributed*. We assume that the sample mean is the population mean. The standard error is the standard deviation of this distribution.
 
@@ -936,11 +936,11 @@ In order to find out whether the difference in mean Polity scores between *Easte
 
 To start, calculate the standard errors of the mean estimates of polity scores for *Eastern Europe* and *Western Europe and North America*.
 
-Formula for standard errors: $SE(\hat\theta) = \dfrac{\hat\sigma}{\sqrt N}$
+Formula for standard errors: $SE(\hat{\theta}) = \dfrac{\hat{\sigma}}{\sqrt N}$
 
-$\hat\theta$ = Estimate of population mean
+$\hat{\theta}$ = Estimate of population mean
 
-$\hat\sigma$ = Standard deviation of a sample
+$\hat{\sigma}$ = Standard deviation of a sample
 
 $N$ = Number of observations
 
