@@ -1,6 +1,6 @@
 ---
 title: "QM 2023 Week 3: Statistical Inference"
-author: "Oliver Rittmann<br>Domantas Undzėnas<br>Lion Behrens"
+author: "Oliver Rittmann<br>Domantas Undzėnas"
 date: "September 21 | 22, 2023"
 output:
   html_document:
